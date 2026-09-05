@@ -1,8 +1,0 @@
-{
-  "name": "dvisor-manager-weekly-report",
-  "version": "0.1.0",
-  "description": "根据导师或领导偏好和参考模板生成可核验、可编辑的周报。",
-  "repository": "https://github.com/lyugaoxin-boop/dvisor-manager-weekly-report",
-  "license": "MIT",
-  "skills": "./skills/"
-}
