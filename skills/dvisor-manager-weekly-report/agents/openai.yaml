@@ -1,0 +1,7 @@
+interface:
+  display_name: "面向导师或领导的周报助手"
+  short_description: "建立导师或领导画像，并依据其判断标准、参考模板和本周材料生成可核验、可编辑的周报"
+  default_prompt: "使用 $dvisor-manager-weekly-report 建立或复用导师/领导画像与周报风格画像，再根据本周材料生成周报；交付后提醒我可回传导师/领导反馈以更新画像。"
+
+policy:
+  allow_implicit_invocation: true
