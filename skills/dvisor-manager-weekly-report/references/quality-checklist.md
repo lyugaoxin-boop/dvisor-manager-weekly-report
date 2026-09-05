@@ -4,6 +4,8 @@ Run every applicable check before delivery.
 
 ## Interaction gates
 
+- [ ] Recipient-profile inquiry followed the start/skip/stop conditions in SKILL.md: upload timing and user inquiry preferences were respected, sufficient evidence or confirmed profiles were reused, and each unsolicited question addressed a consequential gap or unresolved conflict.
+- [ ] A new week, first use, or empty nonessential profile fields did not by themselves trigger an interview; inquiry stopped when sufficient, declined, or unknown to the user.
 - [ ] At least one recipient/style source was provided.
 - [ ] User-supplied screenshots, annotations, meeting notes, feedback excerpts, or behavioral examples were inventoried with their context and authorship when applicable.
 - [ ] Unrelated messages, contact details, avatars, group-member information, and other irrelevant personal data were excluded from the recipient profile.

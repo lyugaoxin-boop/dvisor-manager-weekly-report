@@ -16,6 +16,10 @@ Useful sources can include, but are not limited to:
 
 Peer templates may inform report style at their lower authority level. They do not establish recipient-profile rules.
 
+## When to start and stop inquiry
+
+Apply [the recipient-profile inquiry conditions in SKILL.md](../SKILL.md#recipient-profile-inquiry-conditions) before asking questions from this guide. Inspecting evidence or drafting a profile does not itself trigger an interview. Respect upload completion, the user's inquiry preference, and any applicable inquiry-preference gate. Reuse sufficient evidence and confirmed rules; ask only about consequential gaps or unresolved conflicts, unless the user explicitly requests broader profile exploration. Stop when the decision is supported, the user declines, or they do not know; keep remaining preferences unknown.
+
 ## Heuristic workflow
 
 1. Inventory the evidence and identify its date, context, author, and relationship to a specific report when available.
@@ -23,7 +27,7 @@ Peer templates may inform report style at their lower authority level. They do n
 3. Convert each observation into one or more narrow report-relevant hypotheses.
 4. Record plausible alternative explanations. A request may be project-specific, caused by missing information, or reflect a stable preference.
 5. Assign confidence and scope using the rubric below.
-6. Ask only questions whose answers would change content priority, evidence depth, risk treatment, or delivery.
+6. Apply the start/skip/stop conditions above; when inquiry is appropriate, ask only about unresolved preferences whose answers would change report decisions or the profile exploration explicitly requested by the user.
 7. Present the draft profile and supporting interpretation to the user for correction and confirmation.
 
 Use this reasoning shape:
@@ -37,7 +41,7 @@ Do not present the candidate implication as a fact about the recipient until the
 ## Screenshot handling
 
 - Inspect only screenshots the user supplies for this task.
-- Identify which messages belong to the recipient, the user, and other participants. Ask one clarifying question when authorship materially changes the interpretation.
+- Identify which messages belong to the recipient, the user, and other participants. Ask one clarifying question when authorship materially changes the interpretation and the inquiry conditions permit it; otherwise exclude the ambiguous material from profile evidence.
 - Preserve enough surrounding context to understand what prompted a reply; do not interpret an isolated message without its relevant prompt when the meaning depends on that prompt.
 - Extract report-relevant observations and source locations. Do not copy unrelated conversation into the profile.
 - Exclude contact names, account identifiers, avatars, phone numbers, group-member details, unrelated messages, and other personal information that does not affect report adaptation.

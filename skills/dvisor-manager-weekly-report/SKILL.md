@@ -32,7 +32,7 @@ Read-only inspection of supplied files is allowed before the goal gate when need
 
 1. Inventory the supplied recipient/style sources and weekly materials.
    - Accept user-supplied WeChat or other chat screenshots, annotated reports, meeting notes, feedback excerpts, and concrete descriptions of the recipient's day-to-day reporting behavior as possible recipient-profile evidence.
-   - For screenshots or conversations, distinguish the recipient's messages from the user's and other participants' messages. If authorship is consequential and unclear, ask one question before using the material as profile evidence.
+   - For screenshots or conversations, distinguish the recipient's messages from the user's and other participants' messages. If authorship is consequential and unclear, apply the recipient-profile inquiry conditions before asking; exclude ambiguous material from profile evidence when it cannot be clarified.
    - Ignore unrelated conversation content, contact details, avatars, group-member information, and other personal data that does not change the weekly-report adaptation.
    - Classify template provenance only from the user's explicit description. Treat every unlabeled or ambiguously labeled reference template as a recipient template by default, including when several unlabeled templates are supplied. Do not ask merely to distinguish recipient from peer provenance, and do not infer peer provenance from filenames, embedded names, metadata, writing quality, or visual style. A later explicit user statement about a template's source overrides this default classification.
 2. Require at least one recipient/style source. If none is present, ask the user to provide one before proceeding.
@@ -46,7 +46,7 @@ Read-only inspection of supplied files is allowed before the goal gate when need
 
 Treat template structure separately from template instance data. A template may establish that a field exists and how it is formatted, but values such as reporter, presenter, respondent, author, name, student/employee ID, team, project, client, or other identity- and assignment-specific content are not reusable profile information. Never carry those values into a new report, recipient profile, or report style profile. For missing person-identity fields such as reporter, presenter, respondent, or author, use the literal value `xxx` by default without asking; a current user-supplied value always overrides this default. This `xxx` fallback is an execution default, not a recipient preference. For other required assignment-specific values, ask one question at a time or use a clearly marked placeholder only when the user explicitly chooses to proceed without them.
 
-When a user description of recipient preferences is incomplete, consider these dimensions only as needed. Use the answers to build the recipient profile rather than running a fixed questionnaire:
+When the recipient-profile inquiry conditions below are met, consider these dimensions only as needed. Use the answers to build the recipient profile rather than running a fixed questionnaire:
 
 - what the recipient cares about most;
 - conclusion-first versus process-first communication;
@@ -109,6 +109,23 @@ Preserve the label and placement of identity fields when applicable, but never c
 
 ## Recipient profile
 
+### Recipient-profile inquiry conditions
+
+Establishing or updating a profile does not automatically require an interview. Apply these conditions to questions about the advisor's or manager's reporting preferences; collecting weekly facts and confirming a proposed profile are separate actions.
+
+**Timing and user choice.** Normally evaluate the need for profile inquiry after the user finishes uploading the current material batch, or clearly presents it as complete, and after inspecting the available evidence and any confirmed profile for the same recipient. While the user says more materials are coming, inventory them without starting a profile interview. An explicit request to start an interview now permits an earlier start. Honor the user's current inquiry preference and any applicable inquiry-preference gate before asking substantive questions; agreeing to inquiry permits useful questions but does not require a full interview.
+
+| Situation | Action |
+|---|---|
+| The user explicitly requests a profile interview or questionnaire | Start the requested mode, focusing on information not already supplied. |
+| First use or a different recipient, and supplied evidence leaves a consequential preference unknown | Ask about the highest-impact gap, such as what counts as progress or which results should lead. First use alone is not a trigger. |
+| An existing profile leaves a gap that changes this week's content priority, evidence depth, risk treatment, or next-step framing | Ask only about that gap; reuse the rest of the confirmed profile. |
+| New feedback or materials conflict with an applicable profile rule, and instruction priority does not resolve the conflict | Ask about the specific conflict or whether the feedback is temporary or stable, if that distinction affects the report or a proposed reusable rule. |
+| Materials sufficiently support a new profile, or the existing confirmed profile still applies | Build a supported draft for confirmation or reuse the confirmed profile; skip the interview. |
+| Only nonessential schema fields are empty, the same preference was already answered, or new evidence merely repeats a known rule | Keep unknowns explicit where useful; do not ask just to complete the schema or because another week has begun. |
+
+**Question selection and stopping.** Before asking, identify the unresolved preference and the concrete report decision its answer would change. If no such decision can be named, skip the question unless the user requested broader profile exploration. Ask one question at a time unless batch intake was requested. Reevaluate after each answer and stop when the material decisions are supported, the user declines further inquiry, or the user says they do not know. Do not rephrase the same gap repeatedly or turn an unknown into an inferred preference. In skipped or declined inquiry, use supported rules, leave unsupported preferences unknown, and disclose consequential assumptions in the goal summary or preview. If a separately required input is missing, identify that input rather than restarting the profile interview. Confirmation of a new or updated profile remains separate and follows the existing confirmation rules.
+
 Maintain a reusable recipient profile separately from the report style profile. The recipient profile answers **what matters to this person and how they judge progress**; the report style profile answers **how the report should look and sound**.
 
 Reuse a previously confirmed recipient profile by default. Establish or update it only when:
@@ -122,7 +139,7 @@ Build the profile from explicit user statements, recipient feedback on earlier r
 
 Translate behavior only into report-relevant hypotheses. For example, repeated requests for baselines may support a hypothesis that comparisons should be prominent. Do not infer a stable preference from response time, punctuation, emoji use, message length, social warmth, or an isolated reaction. Preserve plausible alternative explanations when the evidence is ambiguous.
 
-Do not infer recipient-profile rules from a peer template. If no recipient-specific evidence exists, create only a minimal draft with unknown fields and ask one consequential question at a time until the current report can be prioritized responsibly. The peer template may still inform the report style profile at its lower authority level.
+Do not infer recipient-profile rules from a peer template. If no recipient-specific evidence exists, create only a minimal draft with unknown fields and apply the recipient-profile inquiry conditions above. Missing profile fields alone do not require questions. The peer template may still inform the report style profile at its lower authority level.
 
 Keep stable preferences separate from current-report goals and temporary requirements. A preference observed once must not become permanent merely because it affected one report.
 
